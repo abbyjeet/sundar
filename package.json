@@ -1,0 +1,14 @@
+{
+  "name": "css-theme-switch",
+  "version": "1.0.0",
+  "description": "Example of CSS variables and themes switcher",
+  "main": "index.js",
+  "scripts": {    
+    "scss": "node-sass --watch src/sundar -o src/sundar"
+  },
+  "author": "Abhijit Jathar",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
+}

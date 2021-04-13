@@ -1,0 +1,6 @@
+.icon {
+  background: var(--gallery-icon);
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+}

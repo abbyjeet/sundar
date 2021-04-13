@@ -1,0 +1,12 @@
+button.primary {
+    /* --bgcolor: var(--navy);
+    --color: var(--light-blue);
+    --font: 15px 'Lato', sans-serif;
+    --padding:5px;     */
+
+    background-color: var(--navy);
+    color: var(--light-blue);
+    font: 15px 'Lato', sans-serif;
+    padding:5px;
+    border-radius: 0;
+}

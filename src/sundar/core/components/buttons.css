@@ -1,0 +1,14 @@
+button {
+    background: #afbcc9;
+    color: #000000;
+    padding: 2px;    
+    border-radius: 20px;
+
+/* 
+    background: var(--bgcolor);
+    color: var(--color);
+    padding: var(--padding);
+    font: var(--font);
+    text-shadow: var(--txtshadow);
+    border-radius: 25px; */
+}
