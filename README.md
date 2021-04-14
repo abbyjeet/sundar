@@ -9,3 +9,4 @@ Things to do:
 - [ ] Make use of CSS Variables for easy theme switching
 - [ ] Create a Yeomen template
 - [ ] Create a StyleGuide
+- [ ] (!!HUGE TASK!!) Remove jQuery dependency. All the components are jQuery plugins.
