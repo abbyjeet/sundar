@@ -8,3 +8,4 @@ Things to do:
 - [ ] Convert to use SCSS
 - [ ] Make use of CSS Variables for easy theme switching
 - [ ] Create a Yeomen template
+- [ ] Create a StyleGuide
