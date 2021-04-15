@@ -1,0 +1,9 @@
+{
+  "generator-node": {
+    "promptValues": {
+      "authorName": "Abhijit Jathar",
+      "authorEmail": "abbyjeet@gmail.com",
+      "authorUrl": "https://github.com/abbyjeet/sundar"
+    }
+  }
+}

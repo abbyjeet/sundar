@@ -1,0 +1,11 @@
+
+.ui.button {
+    border: none;
+    background: var(--mimosa);
+    color: var(--cucumber);
+    font-family: 15px 'Lucida Handwriting';    
+    text-shadow: 0 2px 5px rgb(39, 39, 39);
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgb(39, 39, 39);
+  }
+  
