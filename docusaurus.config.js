@@ -10,7 +10,7 @@ module.exports = {
   organizationName: 'abbyjeet', // Usually your GitHub org/user name.
   projectName: 'sundar', // Usually your repo name.
   themeConfig: {
-    colorMode: {      
+    colorMode: {
       defaultMode: 'dark',
       disableSwitch: false,
       respectPrefersColorScheme: false,
@@ -30,7 +30,7 @@ module.exports = {
         //   position: 'left',
         // },
         // {to: 'blog', label: 'Blog', position: 'left'},
-        {to: 'help', label: 'Help', position: 'right'},
+        { to: 'help', label: 'Help', position: 'right' },
         // {
         //   href: 'https://github.com/facebook/docusaurus',
         //   label: 'GitHub',
@@ -89,20 +89,22 @@ module.exports = {
       '@docusaurus/preset-classic',
       {
         docs: {
+          path: 'docs',
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebar.js'),
           // Please change this to your repo.
           // editUrl:
           //   'https://github.com/facebook/docusaurus/edit/master/website/',
         },
-        // help: {
-        //   id: 'help',
-        //   routeBasePath: '/help',
-        //   sidebarPath: require.resolve('./sidebar-help.js'),
-        //   // Please change this to your repo.
-        //   // editUrl:
-        //   //   'https://github.com/facebook/docusaurus/edit/master/website/',
-        // },
+        help: {
+          id: 'help',
+          path: 'docs',
+          routeBasePath: 'help',
+          sidebarPath: require.resolve('./sidebar.js'),
+          // Please change this to your repo.
+          // editUrl:
+          //   'https://github.com/facebook/docusaurus/edit/master/website/',
+        },
         // blog: {
         //   showReadingTime: true,
         //   // Please change this to your repo.

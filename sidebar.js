@@ -3,9 +3,13 @@ module.exports = {
     'getting-started',
     'create-a-document',
     'thank-you',
-    {
-      'Child Page': ['create-a-document']
-    }
+    // {
+    //   'Child Page': ['help/getting-started', 'help/project-structure']
+    // },
+  ],
+  help: [
+    'help/getting-started',
+    'help/project-structure',
   ]
 };
 
