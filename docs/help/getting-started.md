@@ -1,7 +1,7 @@
 ---
 title: Getting Started
 slug: /
-hide_table_of_contents: true
+# hide_table_of_contents: true
 ---
 
 ## Step 1: Generate a new Docusaurus site

@@ -1,0 +1,60 @@
+
+@import url('colors.css');
+@import url('variables.css');
+
+/* 
+    Please keep the parentheses () when executing
+    (cd src/sundar/core && ls -A1 components/styles/*.css | awk '{print "@import url(\x27"$1"\x27);"}')
+*/
+@import url('components/styles/reset.css');
+@import url('components/styles/site.css');
+
+@import url('components/styles/accordion.css');
+@import url('components/styles/ad.css');
+@import url('components/styles/breadcrumb.css');
+@import url('components/styles/button.css');
+@import url('components/styles/calendar.css');
+@import url('components/styles/card.css');
+@import url('components/styles/checkbox.css');
+@import url('components/styles/comment.css');
+@import url('components/styles/container.css');
+@import url('components/styles/dimmer.css');
+@import url('components/styles/divider.css');
+@import url('components/styles/dropdown.css');
+@import url('components/styles/embed.css');
+@import url('components/styles/emoji.css');
+@import url('components/styles/feed.css');
+@import url('components/styles/flag.css');
+@import url('components/styles/form.css');
+@import url('components/styles/grid.css');
+@import url('components/styles/header.css');
+@import url('components/styles/icon.css');
+@import url('components/styles/image.css');
+@import url('components/styles/input.css');
+@import url('components/styles/item.css');
+@import url('components/styles/label.css');
+@import url('components/styles/list.css');
+@import url('components/styles/loader.css');
+@import url('components/styles/menu.css');
+@import url('components/styles/message.css');
+@import url('components/styles/modal.css');
+@import url('components/styles/nag.css');
+@import url('components/styles/placeholder.css');
+@import url('components/styles/popup.css');
+@import url('components/styles/progress.css');
+@import url('components/styles/rail.css');
+@import url('components/styles/rating.css');
+@import url('components/styles/reveal.css');
+@import url('components/styles/search.css');
+@import url('components/styles/segment.css');
+@import url('components/styles/shape.css');
+@import url('components/styles/sidebar.css');
+@import url('components/styles/slider.css');
+@import url('components/styles/statistic.css');
+@import url('components/styles/step.css');
+@import url('components/styles/sticky.css');
+@import url('components/styles/tab.css');
+@import url('components/styles/table.css');
+@import url('components/styles/text.css');
+@import url('components/styles/toast.css');
+@import url('components/styles/transition.css');

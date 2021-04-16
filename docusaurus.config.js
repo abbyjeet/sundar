@@ -6,7 +6,7 @@ module.exports = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/sundar.ico',
   organizationName: 'abbyjeet', // Usually your GitHub org/user name.
   projectName: 'sundar', // Usually your repo name.
   themeConfig: {
@@ -16,10 +16,11 @@ module.exports = {
       respectPrefersColorScheme: false,
     },
     navbar: {
+      hideOnScroll: true,
       title: 'Sundar UI Kit StyleGuide',
       logo: {
         alt: 'Sundar UI Kit StyleGuide',
-        src: 'img/logo.svg',
+        src: 'img/sundar.png',
       },
       items: [
         // {
@@ -29,11 +30,12 @@ module.exports = {
         //   position: 'left',
         // },
         // {to: 'blog', label: 'Blog', position: 'left'},
-        {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
-          position: 'right',
-        },
+        {to: 'help', label: 'Help', position: 'right'},
+        // {
+        //   href: 'https://github.com/facebook/docusaurus',
+        //   label: 'GitHub',
+        //   position: 'right',
+        // },
       ],
     },
     footer: {
@@ -88,17 +90,25 @@ module.exports = {
       {
         docs: {
           routeBasePath: '/',
-          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarPath: require.resolve('./sidebar.js'),
           // Please change this to your repo.
           // editUrl:
           //   'https://github.com/facebook/docusaurus/edit/master/website/',
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
-        },
+        // help: {
+        //   id: 'help',
+        //   routeBasePath: '/help',
+        //   sidebarPath: require.resolve('./sidebar-help.js'),
+        //   // Please change this to your repo.
+        //   // editUrl:
+        //   //   'https://github.com/facebook/docusaurus/edit/master/website/',
+        // },
+        // blog: {
+        //   showReadingTime: true,
+        //   // Please change this to your repo.
+        //   editUrl:
+        //     'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+        // },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
