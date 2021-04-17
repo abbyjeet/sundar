@@ -11,8 +11,8 @@ module.exports = {
   projectName: 'sundar', // Usually your repo name.
   themeConfig: {
     colorMode: {
-      defaultMode: 'dark',
-      disableSwitch: false,
+      defaultMode: 'light',
+      disableSwitch: true,
       respectPrefersColorScheme: false,
     },
     navbar: {
@@ -112,7 +112,8 @@ module.exports = {
         //     'https://github.com/facebook/docusaurus/edit/master/website/blog/',
         // },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          // customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve('./src/sundar/themes/default/index.css','./src/sundar/core/index.css'),
         },
       },
     ],

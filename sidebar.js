@@ -1,11 +1,45 @@
 module.exports = {
   docs: [
-    'getting-started',
-    'create-a-document',
-    'thank-you',
+    'guide/getting-started',
+    'guide/create-a-document',
+    'guide/thank-you',
     // {
     //   'Child Page': ['help/getting-started', 'help/project-structure']
     // },
+    {
+      'Components': [
+        {
+          'Globals': [
+            'guide/components/globals/reset-site'
+          ]
+        },
+        {
+          'Elements': [
+            'guide/components/elements/button'
+          ]
+        },
+        {
+          'Collections': [
+            'guide/components/collections/form'
+          ]
+        },
+        {
+          'Modules': [
+            'guide/components/modules/calendar'
+          ]
+        },
+        {
+          'Views': [
+            'guide/components/views/card'
+          ]
+        },
+        {
+          'Behaviors': [
+            'guide/components/behaviors/api'
+          ]
+        }
+      ]
+    }
   ],
   help: [
     'help/getting-started',

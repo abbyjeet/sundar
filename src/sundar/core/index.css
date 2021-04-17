@@ -9,13 +9,13 @@
 @import url('components/styles/reset.css');
 @import url('components/styles/site.css');
 
-@import url('components/styles/accordion.css');
+/* @import url('components/styles/accordion.css');
 @import url('components/styles/ad.css');
-@import url('components/styles/breadcrumb.css');
+@import url('components/styles/breadcrumb.css'); */
 @import url('components/styles/button.css');
 @import url('components/styles/calendar.css');
 @import url('components/styles/card.css');
-@import url('components/styles/checkbox.css');
+/*@import url('components/styles/checkbox.css');
 @import url('components/styles/comment.css');
 @import url('components/styles/container.css');
 @import url('components/styles/dimmer.css');
@@ -57,4 +57,4 @@
 @import url('components/styles/table.css');
 @import url('components/styles/text.css');
 @import url('components/styles/toast.css');
-@import url('components/styles/transition.css');
+@import url('components/styles/transition.css'); */
