@@ -113,7 +113,7 @@ module.exports = {
         // },
         theme: {
           // customCss: require.resolve('./src/css/custom.css'),
-          customCss: require.resolve('./src/sundar/themes/default/index.css','./src/sundar/core/index.css'),
+          customCss: require.resolve('./src/css/custom.css'),
         },
       },
     ],

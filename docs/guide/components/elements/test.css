@@ -1,0 +1,7 @@
+button.ui.button {
+    color: aqua;    
+}
+
+button.ui.button.primary {
+    background-color: blue;
+}
