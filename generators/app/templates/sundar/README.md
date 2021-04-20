@@ -17,6 +17,18 @@ For example:
 </head>
 ```
 
+For React or other apps, add .eslintrc.js file to root folder to avoid issues:
+```js
+//.eslintrc.js
+// This is important for jQuery and its plugins to work
+module.exports = {    
+    "globals": {
+        "$": true,
+        "jQuery": true,
+    }
+};
+```
+
 For more information on this project, visit [Sundar](https://github.com/abbyjeet/sundar)
 
 ## License
