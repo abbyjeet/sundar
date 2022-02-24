@@ -7,6 +7,6 @@ Things to do:
 - [ ] Migrate all the components from Fomantic UI
 - [ ] Convert to use SCSS
 - [ ] Make use of CSS Variables for easy theme switching
-- [ ] Create a Yeomen template
-- [ ] Create a StyleGuide
+- [x] Create a Yeomen template (change the branch)
+- [x] Create a StyleGuide (change the branch)
 - [ ] (!!HUGE TASK!!) Remove jQuery dependency. All the components are jQuery plugins.
